@@ -20,7 +20,7 @@ lr_step : 5
 lr_gamma : 0.8
 beta1: 0.9
 beta2: 0.999
-labels: ['LOC','ORG','PER']
+labels: ['LOC','ORG','PER','OTH']
 # labels: ['YAS','TOJ', 'NGS', 'QCV', 'OKB', 'BQF', 'CAR', 'ZFM', 'EMT', 'UER', 'QEE', 'UFT', 'GJS', 'SVA', 'ANO', 'KEJ', 'ZDI', 'CAT', 'GCK', 'FQK', 'BAK', 'RET', 'QZP', 'QAQ', 'ZRE', 'TDZ', 'CVC', 'PMN']
 
 use_multi_gpu: False
